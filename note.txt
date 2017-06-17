@@ -1,0 +1,21 @@
+public_html		Public files; should be public; place only index.php here
+public_html/css		CSS files
+public_html/images		Images
+public_html/js		jQuery, Bootstrap, etc.
+
+lib			Library; should be private
+lib/vendor			3rd party libraries
+
+application			Whole application; should be private
+application/class		Classes that make the application work; main app, etc.
+application/class/model		All models
+application/class/view		All views
+application/class/view/html	Templates used by the views
+applilcation/class/controller	All controllers
+application/class/helper		Helper functions
+application/class/lib		Personal libraries that you developed for the application
+application/template		Layout and/or templates for the application
+application/config		Configuration files
+application/log		Log files
+application/cron		Scheduled jobs
+application/database		Database migration scripts

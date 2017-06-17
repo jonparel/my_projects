@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 2, 2017, 8:42:08 AM
+    Author     : Jonathan
+*/
+
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:#f4f4f4;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin:0;
+    padding: 0;
+}
+
+.button_1{
+    height: 38px;
+    background: #e41e2b;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+/* Header */
+header{
+    background: #35424a;
+    color:#ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    /* border-bottom: #e8491d 3px solid; */
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px; /*top right bottom left */
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float:right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: #e41e2b;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* SHOWCASE */
+#showcase{
+    min-height: 500px;
+    background: url('../images/enjoyjoke.png') no-repeat 0;
+    background-position: top, center;
+    background-color: #e41e2b;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+#showcase h1{
+    margin-top: 300px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+/* NEWSLETTER */
+
+#newsletter {
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+    padding: 4px;
+    height:25px;
+    width: 250px;
+}
+
+/* BOXES */
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+footer{
+    padding: 10px;
+    color: #ffffff;
+    background-color: #e41e2b;
+    text-align: center;
+}
